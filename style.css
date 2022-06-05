@@ -1,0 +1,74 @@
+body{
+    margin: auto;
+    padding: 2em 2em;
+    background-color: rgb(233, 233, 233);
+    width: 310px;
+    height: 50px;
+    font-family: Mukta;
+}
+ 
+ 
+header{
+    color: rgb(232, 232, 232);
+    background-color: rgb(25, 81, 251);
+    border: 5px solid rgb(201, 202, 202);
+    border-bottom: none;
+    text-align: center;
+    padding: 0 2em 2em 2em;
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(201, 202, 202);
+    border-top: none;
+    padding: 5px 1px 2em 1em;
+}
+
+#rdo{
+    background-color: #e90505;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    display: inline-block;
+    margin: 2px 2px;
+    border-radius: 4px;
+    border: 2px solid #f06c6c;
+    cursor: pointer;
+}
+#rdo:hover{
+    box-shadow: 0 2px 4px rgb(95, 71, 71) ;
+    background-color: rgb(131, 10, 10);
+}
+#rdo:active{
+    transform: translateY(4px);
+}
+
+#datos-ingresar{
+    line-height: 2;
+
+}
+#datos-ingresar input{
+    border-color: grey;
+    width: 70%;
+    
+}
+#Lista {
+    padding: 2px;
+    padding-left: 10px;
+    margin-right: 4px;
+}
+.gasto-persona{
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    text-align: left;
+    line-height: 2;
+    border-radius: 4px;
+    margin-bottom: 1px;
+    padding-left: 15px;
+    border-color: azure;
+    cursor: pointer;
+}
+.gasto-persona:hover{
+    box-shadow: 0 2px 4px rgb(4, 4, 4) ;
+    background-color: rgb(0, 27, 163);
+}
