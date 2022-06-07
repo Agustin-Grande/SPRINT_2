@@ -40,7 +40,10 @@ function Calcular(){
   document.getElementById("Division").innerHTML =
     "A cada uno le toca aportar: $" + total;
 
-
+    if (document.getElementById('efectivo').checked){
+      alert('Pago con efectivo esta seleccionado');
+  
+  }
 
 }
 function Imprimir(){

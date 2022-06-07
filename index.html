@@ -40,6 +40,11 @@
           placeholder="Ingrese el gasto"
         />
       </div>
+      <form name=pago>
+      <input type="Radio" name="pago" id="efectivo" value="first_checkbox">Efectivo
+      <input type="Radio" id="tarjeta" name="pago" value="second_checkbox">Tarjeta
+      </form>
+
       <div>
         <button id="rdo" onclick="Enviar(nombre.value, gasto.value)">Enviar</button>
         <button type="button" class="btn btn-light" onclick="Borrar()">
