@@ -47,13 +47,20 @@
 
       <div>
         <button id="rdo" onclick="Enviar(nombre.value, gasto.value)">Enviar</button>
-        <button type="button" class="btn btn-light" onclick="Borrar()">
+        <button id="rdo" type="button" class="btn btn-light" onclick="Borrar()">
           Borrar
+        </button>
+        <button id="descarga"  type="button" class="btn btn-light" onclick="Descargar()">
+          Descargar Informacion
+        </button>
+        <button id="descarga"  type="button" class="btn btn-light" onclick="Leer()">
+          Cargar Informacion
         </button>
       </div>
       <table>
         <div id="Lista"></div>
       </table>
+      <div id="info"></div>
       <div id="Total"></div>
       <div id="Division"></div>
     </nav>
